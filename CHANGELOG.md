@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.9.2.1
+
+Fixed
+
+* [Compatibility with Redis client v5.x](https://github.com/redis-store/redis-store/pull/359)
+
 ## 1.9.0
 
 Breaking Changes

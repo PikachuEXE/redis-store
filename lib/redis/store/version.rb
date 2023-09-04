@@ -1,6 +1,7 @@
 class Redis
   class Store < self
-    VERSION = '1.9.2'
+    # Official version + `.x`
+    VERSION = '1.9.2.1'
 
     def self.redis_client_defined?
       # Doesn't work if declared as constant

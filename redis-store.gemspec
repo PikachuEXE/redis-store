@@ -4,13 +4,17 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'redis/store/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'redis-store'
+  s.name        = 'redis-store-pika'
   s.version     = Redis::Store::VERSION
   s.authors     = ['Luca Guidi']
   s.email       = ['me@lucaguidi.com']
-  s.homepage    = 'http://redis-store.org/redis-store'
+  s.homepage    = 'https://github.com/PikachuEXE/redis-store'
   s.summary     = 'Redis stores for Ruby frameworks'
   s.description = 'Namespaced Rack::Session, Rack::Cache, I18n and cache Redis stores for Ruby web frameworks.'
+  s.post_install_message = "
+    This is a fork of official redis-store gem published to let people use fixes unavailable on official one yet.
+    Be sure to check updates from official redis-store gem sometimes in case the fixes here are merged there.
+  "
 
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
