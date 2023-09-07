@@ -1,1 +1,1 @@
-require 'redis/store'
+require 'redis-store'
