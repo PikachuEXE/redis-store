@@ -59,9 +59,10 @@ s.add_dependency 'redis-store', '>= 1.4', '< 2'
 
 ## Status
 
-[![Gem Version](https://badge.fury.io/rb/redis-store.svg)](http://badge.fury.io/rb/redis-store)
-[![Build Status](https://secure.travis-ci.org/redis-store/redis-store.svg?branch=master)](http://travis-ci.org/redis-store/redis-store?branch=master)
-[![Code Climate](https://codeclimate.com/github/redis-store/redis-store.svg)](https://codeclimate.com/github/redis-store/redis-store)
+[![GitHub Build Status](https://img.shields.io/github/actions/workflow/status/PikachuEXE/redis-store/ci.yml?branch=pika-fork/master&style=flat-square)](https://github.com/PikachuEXE/redis-store/actions/workflows/ci.yml)
+
+[![Gem Version](https://badge.fury.io/rb/redis-store-pika.svg)](https://badge.fury.io/rb/redis-store-pika)
+[![License](https://img.shields.io/github/license/PikachuEXE/redis-store.svg?style=flat-square)](http://badge.fury.io/rb/redis-store-pika)
 
 ## Copyright
 
