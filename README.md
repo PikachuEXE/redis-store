@@ -61,8 +61,8 @@ s.add_dependency 'redis-store', '>= 1.4', '< 2'
 
 [![GitHub Build Status](https://img.shields.io/github/actions/workflow/status/PikachuEXE/redis-store/ci.yml?branch=pika-fork/master&style=flat-square)](https://github.com/PikachuEXE/redis-store/actions/workflows/ci.yml)
 
-[![Gem Version](https://badge.fury.io/rb/redis-store-pika.svg)](https://badge.fury.io/rb/redis-store-pika)
-[![License](https://img.shields.io/github/license/PikachuEXE/redis-store.svg?style=flat-square)](http://badge.fury.io/rb/redis-store-pika)
+[![Gem Version](http://img.shields.io/gem/v/redis-store-pika.svg?style=flat-square)](https://badge.fury.io/rb/redis-store-pika)
+[![License](https://img.shields.io/github/license/PikachuEXE/redis-store.svg?style=flat-square)](https://badge.fury.io/rb/redis-store-pika)
 
 ## Copyright
 
