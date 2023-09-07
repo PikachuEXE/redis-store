@@ -1,3 +1,17 @@
+# This is a fork!
+
+This is a fork of official redis-store gem published to let people use fixes unavailable on official one yet.  
+Be sure to check updates from official [`redis-store`](https://github.com/redis-store/redis-store) gem sometimes in case the fixes included in this fork are already merged there.  
+(You can subscribe specific issues/PRs/releases on GitHub)  
+
+To install this fork place `redis-store-pika` into Gemfile (no special `require` option needed, I think).  
+Be sure not to install/require `redis-store` at the same time (maybe comment that line out in `Gemfile`)  
+
+## Versioning
+Since this is a fork (as a temporary measure) semantic versioning won't be used.  
+It would be like `(last offical version)` + `.x` (`x` = how many times it's released)  
+(e.g. Based on `1.9.2` + 1st release = `1.9.2.1`)  
+
 # Redis stores for Ruby frameworks
 
 __Redis Store__ provides a full set of stores (*Cache*, *I18n*, *Session*, *HTTP Cache*) for modern Ruby frameworks like: __Ruby on Rails__, __Sinatra__, __Rack__, __Rack::Cache__ and __I18n__. It supports object marshalling, timeouts, single or multiple nodes, and namespaces.

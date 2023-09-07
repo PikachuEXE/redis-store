@@ -2,7 +2,7 @@ require 'bundler/setup'
 require 'minitest/autorun'
 require 'mocha/minitest'
 require 'redis'
-require 'redis-store'
+require 'redis-store-pika'
 
 $DEBUG = ENV["DEBUG"] === "true"
 
